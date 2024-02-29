@@ -17,5 +17,14 @@
 For TestCase1 : e2e -> 'TradeNation' -> TradeNationHomePage.cy.js 
 For TestCase2 : e2e -> 'TradeNation' -> GoogleInvalidLogin.cy.js
 
+Note:
+
+To run the tests with desktop (viewport width: 1280, viewport Height: 800)
+I have added below configuartion in cypress.config.js file 
+  viewportWidth: 1280,
+  viewportHeight: 800
+
+  I have also defined base URL in cypress.config.js file 
+ baseUrl: 'https://tradenation.com'
 
 
